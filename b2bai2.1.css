@@ -1,0 +1,36 @@
+.wrapper{
+    max-width: 700px;
+    margin: auto;
+}
+header{
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+main{
+    max-width: 700px;
+    margin: auto;
+    margin-right: 550px;
+}
+img{
+    width: 600px;
+    height: auto;
+}
+a{
+    font-size: 13px;
+    color: rgb(65, 69, 94);
+    text-decoration: none;
+}
+header,ul,h1,footer{
+    font-family: arial;
+}
+p{
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 17px;
+}
+.weight{
+    font-weight: 700;
+}
+.nghieng{
+    font-style: italic;
+}
