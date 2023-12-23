@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family:Reey-Regular;
+  src: url('Reey-Regular.otf');
+}
+.boc{
+  margin: 30px 100px;
+}
+header{
+  background-image: url("../anh/Background.jpg");
+  height: 800px;
+  color: white;
+}
+header ul{
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+header li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 25px;
+}
+.head{
+  display: flex;
+}
+.tieude{
+  width: 40%;
+}
+.logo{
+  height: 130px;
+  margin-top: 0;
+}
+
+.anh1 {
+  height: 500px;
+}
+.anh2 {
+  height: 200px;
+}
+.la5 img{
+  position: absolute;
+  height: 1000px;
+  padding: 150px 0;
+}
+p{
+  font-size: 20px;
+}
+h1,h2{
+  font-family:Reey-Regular;
+  font-size: 60px;
+  padding: 50px 0;
+}
+h3{
+  font-size: 25px;
+}
+.phan1{
+  height: 900px;
+  text-align: center;
+}
+.phan1-wi{
+  width: 900px;
+  text-align: center;
+}
+.food{
+  display: flex;
+}
+.phan1-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  text-align: left;
+}
+.phan1-item img{
+  margin: 60px 0;
+  padding: 0;
+}
+.phan1 .hop, .phan3 .hop{
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px 30px;
+  align-items: center;
+}
+.phan1 a, .phan3 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+.phan2{
+  height: 500px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.phan2 p{
+  text-align: left;
+  font-size: 20px;
+}
+.phan2 .phan1-item{
+  margin-left: 200px;
+}
+.tieude .hop{
+  background-color: rgb(236, 235, 235);
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px 30px;
+  margin-top: 50px;
+}
+.phan2 .hop{
+  background-color: rgb(236, 235, 235);
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px 20px;
+  margin:100px 800px;
+}
+.tieude a, .phan2 a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.phan 3{
+  height: 500px;
+}
+.phan3 img{
+  height: 400px;
+}
+.ben{
+  display: flex;
+  flex-direction: column;
+}
+.phan{
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.phan3 .hop{
+  margin: 10px auto;
+}
+.text{
+  width: 50%;
+  padding-left: 30px;
+}
+.phan4{
+  height: 900px;
+  color: white;
+  text-align: center;
+  background-image: url("../anh/Background.jpg");
+}
+hr{
+  border-width: 3px;
+  width: 300px;
+  margin: auto;
+}
+.phan4 img{
+  margin: 0;
+}
+.phan4 .anh2 img{
+  height: 1000px;
+}
+.phan7 .anh2 img{
+  height: 850px;
+  padding-left: 200px;
+}
+.phan4 .anh1 img{
+  height: 700px;
+}
+.phan4 .anh1{
+  padding-left: 400px;
+} 
+ .phan4 .piece img{
+  height: 200px;
+}
+.phan4 .piece{
+  padding-right: 300px;
+} 
+.phan5{
+  height: 500px;
+}
+.phan5 .phan1-item{
+  justify-content: center;
+}
+.phan6{
+  height: 300px;
+  padding: 20px 100px;
+  text-align: center;
+}
+.phan6 p{
+  padding: 20px 0;
+  font-size: 30px;
+}
+.phan7{
+  height: 700px;
+  background-color: black;
+  color: white;
+}
+.phan7 h3{
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+.phan7 form{
+  margin-top: 30px;
+}
+.phan7 .search-container {
+  position: relative;
+  display: inline-block;
+} 
+.phan7  input[type="text"] {
+padding-left: 20px;
+  width: 600px;
+  border-radius: 50px;
+  height: 40px;
+}
+
+.phan7 button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background-color: gray;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px 50px;
+}
+.footer{
+  margin-top: 120px;
+  padding: 64px 0;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+.item3{
+  width: 40%;
+}
+.item3 {
+  font-size: 50px;
+}
+.item3 p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+div i{
+  padding: 10px;
+  cursor: pointer;
+}
+.item4{
+  row-gap: 20px;
+  width: 20%;
+}
+.footer ul li{
+  list-style-type: none;
+  padding-top: 24px;
+}
+.item4 ul li{
+  font-size: 20px;
+}
+.item4 a{
+  text-decoration: none;
+  line-height: 24px;
+  color: black;
+}
