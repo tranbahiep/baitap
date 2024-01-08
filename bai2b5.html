@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kiểm tra số chẵn lẻ</title>
+    <script>
+        function kiemTraSoChanLe() {
+            var number = document.getElementById("inputNumber").value;
+            var resultElement = document.getElementById("result");
+            
+            if (number % 2 === 0) {
+                resultElement.innerHTML = "Số " + number + " là số chẵn.";
+            } else {
+                resultElement.innerHTML = "Số " + number + " là số lẻ.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Kiểm tra số chẵn lẻ</h1>
+    <input type="text" id="inputNumber" placeholder="Nhập một số" />
+    <button onclick="kiemTraSoChanLe()">Kiểm tra</button>
+    <p id="result"></p>
+</body>
+</html>
