@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="buoi6b1.js"></script>
+    <link rel="stylesheet" href="buoi6b1.css">
+</head>
+<body>
+    <h1>FORM ĐĂNG KÍ</h1>
+    <form name="form" action="" onsubmit="return validateForm()">
+        <label for="ho">Họ</label>
+        <input type="text" name="ho" id="ho"> <br>
+        <label for="ten">Tên</label>
+        <input type="text" name="ten" id="ten"> <br>
+        <label for="ngay">Ngày</label>
+        <select name="ngay" id="ngay">
+          <option value="">Chọn ngày</option>
+        </select>
+        
+        <label for="thang">Tháng</label>
+        <select name="thang" id="thang">
+          <option value="">Chọn tháng</option>
+        </select>
+        
+        <script src="buoi6b1ngaythangnam.js"></script>
+        <label for="nam">Năm</label>
+        <select name="nam" id="nam">
+            <option value="">Chọn năm</option>
+            <script src="buoi6b1ngaythangnam.js"></script>
+        </select> <br>
+        <label for="gioitinh">Giới tính</label>
+        <input type="radio" name="gioitinh" value="Nam" checked=checked/>Nam
+        <input type="radio" name="gioitinh" value="Nữ">Nữ <br>
+        <label>Số điện thoại</label>
+        <input type="text" id="phone" name="phone" pattern="[0-9]{10}" required>
+        <label for="sothich">Sở thích</label>
+        <input type="checkbox" value="Đọc sách" name="sothich" checked=checked/>Đọc sách
+        <input type="checkbox" value="Xem phim" name="sothich"/>Xem phim
+        <input type="checkbox" value="Nghe nhạc" name="sothich"/>Nghe nhạc
+        <input type="checkbox" value="Đá bóng" name="sothich"/>Đá bóng <br>
+        <label for="khac">Khác</label>
+        <input type="text" name="khac" id="khac"><br>
+        <button>Submit</button>
+        <button>Reset</button>
+    </form>
+</body>
+</html>
